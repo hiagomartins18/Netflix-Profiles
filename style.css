@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #141414;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+nav {
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .7) 10%, rgba(0, 0, 0, 0));
+}
+
+nav img {
+
+    width: 140px;
+    height: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.main-box {
+
+    display: block;
+    justify-content: center;
+    margin: 5em;
+}
+
+.main-box header h1 {
+
+    font-size: 50px;
+}
+
+header {
+
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.profile-box {
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+
+    max-width: 80%;
+    position: relative;
+    margin: 15px;
+    display: inline-block;
+}
+
+.profile h2 {
+    font-size: 17px;
+    color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.profile img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile h2{
+
+    cursor: pointer;
+}
+
+.profile img:hover {
+
+    border: 2px solid white;
+}
+
+.profile h2:hover{
+
+    color: white;
+}
+
+.button-profile {
+
+    padding: 10px;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 16px;
+    border: 1px solid gray;
+    width: 100%;
+    height: 45px;
+    max-width: 200px;
+    cursor: pointer;
+}
+
+.button-profile, .button-profile a {
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+}
+
+.button-profile a, .button-profile:hover{
+
+    color: white;
+    border-color: white;
+}
